@@ -1,0 +1,152 @@
+# ==========================================
+# Operating System Files
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+.Spotlight-V100
+.Trashes
+._*
+
+# Linux
+*~
+.directory
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+
+# ==========================================
+# IDEs and Editors
+# ==========================================
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.sublime-workspace
+*.sublime-project
+.fleet/
+nbproject/
+.project
+.classpath
+.settings/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+*.swn
+*.swm
+*~
+*#
+
+# ==========================================
+# Dependencies & Node.js
+# ==========================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.pnpm-store/
+.node_history
+lib-cov/
+lcov.info
+pids/
+logs/
+results/
+.eslintcache
+.tsbuildinfo
+
+# Package managers
+.yarn/*
+!.yarn/cache
+!.yarn/unplugged
+!.yarn/patches
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+# ==========================================
+# Environment Variables & Secrets
+# ==========================================
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.example
+ssl/
+*.pem
+*.key
+*.cert
+
+# ==========================================
+# Strapi Build & Runtime
+# ==========================================
+dist/
+build/
+.cache/
+.tmp/
+exports/
+.strapi/
+.strapi-updater.json
+.strapi-cloud.json
+license.txt
+
+# ==========================================
+# Strapi Uploads & Media
+# ==========================================
+public/uploads/*
+!public/uploads/.gitkeep
+
+# ==========================================
+# Databases & Backups
+# ==========================================
+*.sqlite
+*.sqlite3
+*.db
+*.sql
+*.dump
+*.tar.gz
+*.bak
+
+# ==========================================
+# Tests & Coverage
+# ==========================================
+coverage/
+.nyc_output/
+
+# ==========================================
+# Archives & Binaries
+# ==========================================
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.seed
+*.pid
